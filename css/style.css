@@ -5,9 +5,10 @@
 
 }
 
-body{
-font-family:Open Sans;
+body {
+    font-family: Open Sans;
 }
+
 /*header*/
 
 header {
@@ -17,7 +18,7 @@ header {
     padding: 15px;
 }
 
-.color-black{
+.color-black {
     color: #000000;
 }
 
@@ -44,16 +45,25 @@ a {
     padding: 10px;
 }
 
-.none{
+.none {
     background: none;
     border: none;
 }
 
-.blu{
+.backg-blu {
     background-color: #0061FE;
     border: none;
     color: white;
 }
+
+.color-white{
+    color: white;
+}
+
+.padding-top{
+    padding-top: 30px;
+}
+
 /*main*/
 
 /*Jumbotron*/
@@ -61,14 +71,13 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: aqua;
-    height: 500px;
+    background-color:#B4D0E6;
     gap: 30px;
 }
 
 .jumbo-title {
     padding-top: 50px;
-    background-color: blueviolet;
+
 }
 
 .jumbo-under {
@@ -76,21 +85,24 @@ a {
 }
 
 .jumbo-text {
-    background-color: rgb(96, 11, 207);
-    height: 400px;
-    width: 250px;
-    margin: auto;
-    border: dotted red;
+    width: 365px;
 }
+
 
 .jumbo-img {
-    background-color: rgb(96, 11, 207);
-    height: 400px;
-    width: 540px;
+    height: 480px;
+    width: 790px;
     margin: auto;
-    border: dotted red;
 }
 
+.jumbo{
+width: 100%;
+height: 100%;
+}
+
+h1{
+    text-align: left;
+}
 /*sezione numero 1*/
 
 .section1 {
@@ -182,25 +194,26 @@ a {
 
 /*sezione footer*/
 
-.footer{
+.footer {
     background-color: #000000;
     color: white;
     display: flex;
     justify-content: center;
     gap: 167px;
-   
+
 }
 
-ul > li{
- list-style:none;
- line-height: 40px;
+ul>li {
+    list-style: none;
+    line-height: 40px;
 }
 
-.footer-list{
+.footer-list {
     height: 400px;
     margin-top: 60px;
 }
-.bold{
+
+.bold {
     font-weight: bold;
     padding-bottom: 25px;
 }
