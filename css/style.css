@@ -11,11 +11,14 @@ font-family:Open Sans;
 /*header*/
 
 header {
-    background-color: aquamarine;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
+}
+
+.color-black{
+    color: #000000;
 }
 
 .left {
@@ -41,6 +44,16 @@ a {
     padding: 10px;
 }
 
+.none{
+    background: none;
+    border: none;
+}
+
+.blu{
+    background-color: #0061FE;
+    border: none;
+    color: white;
+}
 /*main*/
 
 /*Jumbotron*/
@@ -163,7 +176,7 @@ a {
 /*sezione numero 4*/
 
 .section4-title {
-    margin: 70px 180px;
+    margin: 60px 181px;
 }
 
 
