@@ -5,6 +5,9 @@
 
 }
 
+body{
+font-family:Open Sans;
+}
 /*header*/
 
 header {
@@ -109,7 +112,7 @@ a {
 }
 
 /*sezione numero 2*/
-.section2{
+.section2 {
     margin-top: 60px;
     display: flex;
     background-color: rgb(0, 81, 255);
@@ -117,14 +120,14 @@ a {
     gap: 30px;
 }
 
-.section2-img{
+.section2-img {
     background-color: rgb(96, 11, 207);
     height: 350px;
     width: 30%;
     border: dotted red;
 }
 
-.section2-text{
+.section2-text {
     background-color: rgb(96, 11, 207);
     height: 350px;
     width: 30%;
@@ -132,14 +135,14 @@ a {
 }
 
 /*sezione numero 3*/
-.section3-title{
+.section3-title {
     text-align: center;
     padding-top: 50px;
     background-color: blueviolet;
 
 }
 
-.section3-square{
+.section3-square {
     height: 800px;
     background-color: rgb(0, 0, 0);
     margin: 0 auto;
@@ -150,7 +153,8 @@ a {
     margin-top: 20px;
     gap: 5px;
 }
-.square{
+
+.square {
     width: 33%;
     background-color: aquamarine;
     border: solid black;
@@ -158,6 +162,36 @@ a {
 
 /*sezione numero 4*/
 
-.section4-title{
+.section4-title {
     margin: 70px 180px;
+}
+
+
+/*sezione footer*/
+
+.footer-column{
+   
+}
+
+.footer{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 167px;
+   
+}
+
+ul > li{
+ list-style:none;
+ line-height: 40px;
+}
+
+.footer-list{
+    height: 400px;
+    margin-top: 60px;
+}
+.bold{
+    font-weight: bold;
+    padding-bottom: 25px;
 }
