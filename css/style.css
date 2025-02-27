@@ -144,7 +144,8 @@ h1 {
     flex-direction: column;
     background-color: #B4D0E6;
     gap: 30px;
-    height: 652px;
+    height: 715px;
+    padding-top: 60px;
 }
 
 .jumbo-title {
