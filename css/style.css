@@ -52,8 +52,16 @@ a {
     color: gray;
 }
 
+.color-black {
+    color: #000000;
+}
+
 .padding-top {
     padding-top: 30px;
+}
+
+.padding-top-50{
+    padding-top: 50px;
 }
 
 .text-center {
@@ -72,6 +80,18 @@ padding-bottom: 35px;
     padding-left: 30px;
 }
 
+.font-size{
+    font-size: 55px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margin-left{
+    margin-left: 845px;
+}
+
 /*header*/
 
 header {
@@ -84,10 +104,6 @@ h1 {
     margin-right: 338px;
     font-size:62px ;
     font-weight: 900;
-}
-
-.color-black {
-    color: #000000;
 }
 
 .left {
@@ -175,15 +191,14 @@ h1 {
 }
 
 .column {
-
-    min-height: 733px;
+    min-height: 773px;
     width: 325px;
     margin: auto;
     border: solid rgb(0, 0, 0) 1px;
 }
 
 .column-large {
-    height: 180px;
+    height: 210px;
     width: 59%;
     margin: auto;
     border: solid black 1px;
@@ -218,8 +233,9 @@ h1 {
 /*sezione numero 3*/
 .section3-title {
     text-align: center;
-    padding-top: 50px;
-    margin-right: 675px;
+    padding-top: 120px;
+    margin-right: 477px;
+    font-size: 20px;
 }
 
 .section3-square {
@@ -257,7 +273,6 @@ h1 {
     display: flex;
     justify-content: center;
     gap: 167px;
-
 }
 
 ul>li {
